@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Insights</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Feed <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Table</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cluster</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Write</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Account
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Your posts</a>
+                <a class="dropdown-item" href="#">Your subscriptions</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Site Stats</a>
+                <a class="dropdown-item" href="#">Help</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0 d-inline">
+            <div class="input-group">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <main role="main" class="container container-fluid">
+      <div class="row text-center">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h3 class="center">Latest posts</h3>
+        </div>
+      </div>
+      <div id="post-feed">
+        <div class="row">
+          <div class="col-md-2">
+            <p class="text-muted">
+              <small>Written Oct 16 2017</small>
+              <small>Updated Oct 23 2017</small>
+            </p>
+          </div>
+          <div class="col-md-8">
+            <div class="card">
+              <div class="card-header text-white bg-dark">
+                <h4 class="card-title">Statistical Modeling: The Two Cultures</h4>
+                <span class="lead">Leo Breiman</span>
+              </div>
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero asperiores voluptatem temporibus, libero, molestias eligendi repudiandae sequi. Iure velit quis, animi veniam dicta, est ullam dolor esse, error, minima eveniet.</p>
+              </div>
+              <div class="card-footer">
+                <div class="post-buttons">
+                  <button type="button" class="btn btn-light btn-sm">Statistics</button>
+                  <button type="button" class="btn btn-light btn-sm">Data Science</button>
+                  <button type="button" class="btn btn-light btn-sm">Tooling</button>
+                  <button type="button" class="btn btn-primary btn-sm float-right">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2">
+            <p class="text-muted">
+              <small>Written Sep 16 2002</small>
+              <small>Updated Oct 23 2017</small>
+            </p>
+          </div>
+          <div class="col-md-8">
+            <div class="card">
+              <div class="card-header text-white bg-dark">
+                <h4 class="card-title">Last-Minute Bidding and the Rules for Ending Second-Price Auctions</h4>
+                <span class="lead">Alvin E. Roth, Axel Ockenfels</span>
+              </div>
+              <div class="card-body">
+                <p>Auctions on the Internet provide a new source of data on how bidding is influenced by the detailed rules of the auction. Here we study the second-price auctions run by eBay and Amazon, in which a bidder submits a reservation price and has this (maximum) price used to bid for him by proxy.</p> </div>
+                <div class="card-footer">
+                  <div class="post-buttons">
+                    <button type="button" class="btn btn-light btn-sm">Economics</button>
+                    <button type="button" class="btn btn-light btn-sm">Auction Theory</button>
+                    <button type="button" class="btn btn-primary btn-sm float-right">Read</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <span class="text-muted">&copy; 2017 you.</span>
+        </div>
+      </footer>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    </body>
+  </html>
